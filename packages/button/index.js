@@ -1,6 +1,6 @@
 /**
- * @author monkeywang
- * Date: 17/11/9
+ * @author ieast
+ * Date: 19/7/9
  */
 import Button from './src/button.vue';
 

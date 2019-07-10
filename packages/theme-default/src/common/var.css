@@ -1,0 +1,49 @@
+:root{
+    /**
+        Colors
+    */
+    --color-primary:#3683d6;
+
+    --color-success: #13ce66;
+    --color-warning: #f7ba2a;
+    --color-danger: #ff4949;
+    --color-info: #50bfff;
+
+    --color-white: #fff;
+
+    --color-base-black: color(var(--color-primary) h(+6) s(33%) l(18%));
+
+
+    --color-extra-light-silver: color(var(--color-base-black) s(26%) l(80%));
+    /*****
+        Border
+    */
+    --border-width-base: 1px;
+    --border-style-base:solid;
+    --border-color-base:var(--color-extra-light-silver);
+    --border-base: var(--border-width-base) var(--border-style-base) var(--border-color-base);
+    
+    --border-radius-base:4px;
+    --border-radius-sizeSmall:4px;
+    --border-radius-sizeMedium:4px;
+
+    --border-default-round:20px;
+    
+
+    /****
+        Button
+    **/
+    --button-default-color: var(--color-base-black);
+    --button-default-fill: var(--color-white);
+
+    --button-default-fontSize:14px;
+    --button-default-padding:12px 20px;
+
+    --button-sizeMedium-fontSize: 14px;
+    --button-sizeMedium-padding: 10px 20px;
+    
+    --button-sizeSmall-fontSize: 12px;
+    --button-sizeSmall-padding: 9px 15px;
+    
+
+}

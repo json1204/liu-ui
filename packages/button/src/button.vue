@@ -4,9 +4,9 @@
     class="l__button"
     :disabled="disabled"
     :class="[
-    'w__button--'+type,
+    'l__button--'+type,
     {'is-plain': plain, 'is-disabled': disabled, 'is-round': round},
-    'w__button--size-'+size
+    'l__button--size-'+size
     ]"
   >
     <i v-if="icon !== ''" :class="icon"></i>
