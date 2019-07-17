@@ -15,7 +15,7 @@
 </template>
 <script>
   export default{
-    name: 'WButton',
+    name: 'LButton',
     props: {
       type: {
         type: String,

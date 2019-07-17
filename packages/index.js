@@ -2,10 +2,10 @@
  * @author monkeywang
  * Date: 17/11/9
  */
-import WButton from './button/index.js';
+import LButton from './button/index.js';
 
 const components = [
-  WButton,
+  LButton,
 ]
 
 const install = function(Vue) {
@@ -21,5 +21,5 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  WButton
+  LButton
 }

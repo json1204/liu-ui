@@ -9,8 +9,11 @@ const path = require('path')
 const chalk = require('chalk')
 const webpack = require('webpack')
 const config = require('../config')
-const webpackConfig = require('./webpack.prod.conf')
-
+let webpackConfig = require('./webpack.prod.conf')
+// 设置执行文件为example相关配置的webpack文件
+if (process.argv[2] == 'packages') {
+  webpackConfig = require('./webpack.prod.packages.conf')
+}
 const spinner = ora('building for production...')
 spinner.start()
 
