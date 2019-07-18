@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yuanalina/installAsRequired.git"
+    "url": "https://github.com/json1204/liu-ui.git"
   },
   "license": "MIT",
-  "homepage": "https://github.com/yuanalina/installAsRequired.git",
+  "homepage": "https://github.com/json1204/liu-ui.git",
   "dependencies": {
     "eslint-plugin-html": "^6.0.0",
     "less": "^3.9.0",
