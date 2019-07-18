@@ -1,6 +1,6 @@
 {
   "name": "liu-ui",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A Vue.js project",
   "author": "liuxiandong",
   "main": "lib/index.js",
@@ -11,6 +11,12 @@
     "build": "node build/build.js",
     "build:packages": "node build/build.js packages"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanalina/installAsRequired.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yuanalina/installAsRequired.git",
   "dependencies": {
     "eslint-plugin-html": "^6.0.0",
     "less": "^3.9.0",
