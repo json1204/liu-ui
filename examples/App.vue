@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png" />
     <router-view>
     </router-view>
   </div>
@@ -12,7 +11,8 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less" type="text/less">
+  @import "./assets/less/index";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
