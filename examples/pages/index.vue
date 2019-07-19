@@ -1,7 +1,7 @@
 <template>
   <div  class="pg-index">
     <div class="index-container">
-      <img width="100" height="300" src="../assets/img/logo.jpg">
+      <img width="100" height="350" src="../assets/img/logo.jpg">
       <p>一款轻量级、模块化的前端 UI 组件库</p>
     </div>
     <div class="separate-panel">
