@@ -9,6 +9,7 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue examples",
     "build": "node build/build.js",
+    "build:local": "node build/build.js local",
     "sh": "bash deploy.sh",
     "build:packages": "node build/build.js packages"
   },
